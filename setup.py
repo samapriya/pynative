@@ -6,13 +6,14 @@ def readme():
         return f.read()
 setuptools.setup(
     name='pynative',
-    version='0.0.1',
+    version='0.0.2',
     packages=find_packages(),
     install_requires=['requests>=2.23.1','beautifulsoup4>=4.9.3'],
+    url ='https://github.com/samapriya/pynative',
     license='MIT',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    classifiers=(
+    classifiers=[
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
         'Natural Language :: English',
@@ -21,7 +22,7 @@ setuptools.setup(
         'Programming Language :: Python :: 3.7',
         'Operating System :: OS Independent',
         'Topic :: Scientific/Engineering :: GIS',
-    ),
+    ],
     author='Samapriya Roy',
     author_email='samapriya.roy@gmail.com',
     description='Simple CLI for Native-Land API',
