@@ -1,6 +1,11 @@
-# pynative
-Simple CLI for native-land.ca API
+# pynative: Simple CLI for native-land.ca API
 
+![](https://tokei.rs/b1/github/samapriya/pynative?category=code)
+![](https://tokei.rs/b1/github/samapriya/pynative?category=files)
+![PyPI - License](https://img.shields.io/pypi/l/pynative)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pynative)
+![PyPI](https://img.shields.io/pypi/v/pynative)
+[![CI pynative](https://github.com/samapriya/pynative/actions/workflows/main.yml/badge.svg)](https://github.com/samapriya/pynative/actions/workflows/main.yml)
 
 ## changelog
 
