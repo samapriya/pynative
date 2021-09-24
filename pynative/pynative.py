@@ -97,12 +97,10 @@ def pynative_version():
         )
 
 
-# pynative_version()
+pynative_version()
 
 
 ### download source
-
-
 def source(mtype, path):
     if mtype == "territories":
         url = "https://native-land.ca/wp-content/themes/Native-Land-Theme/files/indigenousTerritories.json"
