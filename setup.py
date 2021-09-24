@@ -6,7 +6,7 @@ def readme():
         return f.read()
 setuptools.setup(
     name='pynative',
-    version='0.0.2',
+    version='0.0.3',
     packages=find_packages(),
     install_requires=['requests>=2.23.1','beautifulsoup4>=4.9.3'],
     url ='https://github.com/samapriya/pynative',

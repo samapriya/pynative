@@ -63,8 +63,21 @@ optional arguments:
 
 To obtain help for specific functionality, simply call it with _help_ switch, e.g.: `pynative location -h`. If you didn't install pynative, then you can run it just by going to *pynative* directory and running `python pynative.py [arguments go here]`
 
-## pynative Simple CLI for Sofarocean API
+## pynative Simple CLI for Native Land API
 The tool is designed to interact with the [Native-Land](https://native-land.ca/) API. All of these APIs are open and function without authentication.
+
+## Native Land Disclaimer
+This map does not represent or intend to represent official or legal boundaries of any Indigenous nations. To learn about definitive boundaries, contact the nations in question. Also, this map is not perfect -- it is a work in progress with tons of contributions from the community. Please send us fixes if you find errors. If you would like to read more about the ideas behind Native Land or where we are going, check out the blog. You can also see the roadmap. Also something to keep in mind
+
+* Native Land is not meant to be vetted at the level of an academic resource
+* Native Land is aimed at settlers to engage them with Indigenous history in a fun, interactive, and subtle way
+The datasets are always in flux and the latest datasets can be downloaded using their API
+
+#### Suggested Citation
+
+```
+(dataset) Native Land Territories map. (2021). Native Land CA. https://native-land.ca/. Accessed 2021-09-24.
+```
 
 ### pynative fetch
 This allows you to fetch the latest version of territories, language and treaties layers. It tries to fetch this from the dynamic data link and if that fails uses the maps endpoints to fetch this. It requires the map type and the full path to a GeoJSON file where the output will be exported
@@ -132,6 +145,10 @@ pynative place --addr "Raleigh,NC" --mtype territories --path "Full path to file
 ```
 
 ## changelog
+
+#### v0.0.3
+- added disclaimer for Native Land and citation recommendation
+- general improvements
 
 #### v0.0.2
 - added improvements overall to all tools
